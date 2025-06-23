@@ -6,15 +6,15 @@ This project is a Real-Time Face Recognition Attendance System developed using P
 
 *Key Features:*
 
-Automatically loads and encodes known faces from a specified image directory.
+- Automatically loads and encodes known faces from a specified image directory.
 
-Scales input video frames to enhance performance and reduce processing load.
+- Scales input video frames to enhance performance and reduce processing load.
 
-Detects and recognizes faces in real time, displaying names with bounding boxes.
+- Detects and recognizes faces in real time, displaying names with bounding boxes.
 
-Logs attendance to a date-stamped .csv file, ensuring no duplicate entries per day.
+- Logs attendance to a date-stamped .csv file, ensuring no duplicate entries per day.
 
-Includes false match filtering using face distance metrics for improved accuracy.
+- Includes false match filtering using face distance metrics for improved accuracy.
 
 *Technologies Used:*
 
