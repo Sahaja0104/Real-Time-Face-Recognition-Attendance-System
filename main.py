@@ -28,26 +28,7 @@ def findEncodings(images):
         encodeList.append(encode)
     return encodeList
 
-# # Function to mark attendance for a recognized person
-# def markAttendance(name):
-#     # Create filename based on today's date
-#     date_str = datetime.now().strftime('%d-%m-%Y')
-#     filename = f"{date_str}.csv"
-
-#     # If file doesn't exist, create and write header
-#     if not os.path.isfile(filename):
-#         with open(filename, 'w', newline='') as f:
-#             f.write('Name,Time\n')
-
-#     # Read existing names from the file
-#     with open(filename, 'r+') as f:
-#         lines = f.readlines()
-#         names = [line.split(',')[0] for line in lines[1:]]  # Skip header
-
-#         # If name not recorded, append it with date and time
-#         if name not in names:
-#             time_str = datetime.now().strftime('%H:%M:%S')
-#             f.write(f'{name},{time_str}\n')
+# Function to mark attendance for a recognized person
 
 def markAttendance(name):
     # Create directory if it doesn't exist
